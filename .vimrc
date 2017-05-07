@@ -1249,3 +1249,7 @@
         endif
     endif
 " }
+if has ('mouse')
+    set mouse-=a
+endif
+
